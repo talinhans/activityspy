@@ -1,8 +1,9 @@
 package edu.uw.ischool.talin16.activityspy
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.EventLog
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        Log.d("Current","On Destroy Called")
+        Log.e("Current", "going down,Captain!")
         super.onDestroy()
     }
 }

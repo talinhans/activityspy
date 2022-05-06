@@ -1,0 +1,36 @@
+2022-05-07 00:07:43.616 24876-24876/? I/n16.activitysp: Late-enabling -Xcheck:jni
+2022-05-07 00:07:43.629 24876-24876/? E/n16.activitysp: Unknown bits set in runtime_flags: 0x8000
+2022-05-07 00:07:44.013 24876-24876/edu.uw.ischool.talin16.activityspy I/FeatureParser: can't find begoniain.xml in assets/device_features/,it may be in /system/etc/device_features
+2022-05-07 00:07:44.021 24876-24876/edu.uw.ischool.talin16.activityspy E/libc: Access denied finding property "ro.vendor.df.effect.conflict"
+2022-05-07 00:07:44.018 24876-24876/edu.uw.ischool.talin16.activityspy W/n16.activityspy: type=1400 audit(0.0:340546): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=16114 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0
+2022-05-07 00:07:44.114 24876-24876/edu.uw.ischool.talin16.activityspy D/ForceDarkHelper: updateByCheckExcludeList: pkg: edu.uw.ischool.talin16.activityspy activity: edu.uw.ischool.talin16.activityspy.MainActivity@a5978fa
+2022-05-07 00:07:44.116 24876-24876/edu.uw.ischool.talin16.activityspy D/ForceDarkHelper: updateByCheckExcludeList: pkg: edu.uw.ischool.talin16.activityspy activity: edu.uw.ischool.talin16.activityspy.MainActivity@a5978fa
+2022-05-07 00:07:44.159 24876-24876/edu.uw.ischool.talin16.activityspy W/n16.activitysp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2022-05-07 00:07:44.160 24876-24876/edu.uw.ischool.talin16.activityspy W/n16.activitysp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2022-05-07 00:07:44.176 24876-24876/edu.uw.ischool.talin16.activityspy D/ForceDarkHelper: updateByCheckExcludeList: pkg: edu.uw.ischool.talin16.activityspy activity: edu.uw.ischool.talin16.activityspy.MainActivity@a5978fa
+2022-05-07 00:07:44.196 24876-24876/edu.uw.ischool.talin16.activityspy D/ForceDarkHelper: updateByCheckExcludeList: pkg: edu.uw.ischool.talin16.activityspy activity: edu.uw.ischool.talin16.activityspy.MainActivity@a5978fa
+2022-05-07 00:07:44.214 24876-24876/edu.uw.ischool.talin16.activityspy I/SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@7628426
+2022-05-07 00:07:44.222 24876-24876/edu.uw.ischool.talin16.activityspy D/ViewRootImpl[MainActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+2022-05-07 00:07:44.226 24876-24876/edu.uw.ischool.talin16.activityspy V/PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@62bcb2, this = DecorView@334c403[MainActivity]
+2022-05-07 00:07:44.227 24876-24876/edu.uw.ischool.talin16.activityspy W/Looper: Slow Looper main: Activity edu.uw.ischool.talin16.activityspy/.MainActivity is 364ms late (wall=205ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 2 msg, msg 2 took 360ms (seq=2 late=7ms h=android.app.ActivityThread$H w=110)
+2022-05-07 00:07:44.228 24876-24876/edu.uw.ischool.talin16.activityspy W/Looper: Slow Looper main: Activity edu.uw.ischool.talin16.activityspy/.MainActivity is 570ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 3 msg, msg 2 took 360ms (seq=2 late=7ms h=android.app.ActivityThread$H w=110), msg 3 took 205ms (seq=3 late=364ms h=android.app.ActivityThread$H w=159)
+2022-05-07 00:07:44.251 24876-24876/edu.uw.ischool.talin16.activityspy E/GraphicExt: Can't load libboost_ext_fwk
+2022-05-07 00:07:44.251 24876-24876/edu.uw.ischool.talin16.activityspy E/GraphicExt: GraphicExtModuleLoader::CreateGraphicExtInstance false
+2022-05-07 00:07:44.252 24876-24986/edu.uw.ischool.talin16.activityspy I/GPUD: @gpudInitialize: successfully initialized with 1, dbg=0 mmdump_dbg=0
+2022-05-07 00:07:44.258 24876-24986/edu.uw.ischool.talin16.activityspy I/GED: [GT]_get_procNameprocess pid(24876)
+2022-05-07 00:07:44.258 24876-24986/edu.uw.ischool.talin16.activityspy I/GED: [GT]_getprocess name(edu.uw.ischool.talin16.activityspy)
+2022-05-07 00:07:44.258 24876-24986/edu.uw.ischool.talin16.activityspy I/: [GT] ret(1) gt_status(00000000) aniso_debug_level(0) gt_aniso_max_level(16) ani so mask(00000001) tri mask(00000002)
+2022-05-07 00:07:44.260 24876-24986/edu.uw.ischool.talin16.activityspy D/Surface: Surface::connect(this=0x7a27b53000,api=1)
+2022-05-07 00:07:44.261 24876-24986/edu.uw.ischool.talin16.activityspy D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2022-05-07 00:07:44.261 24876-24986/edu.uw.ischool.talin16.activityspy D/Surface: Surface::setBufferCount(this=0x7a27b53000,bufferCount=3)
+2022-05-07 00:07:44.261 24876-24986/edu.uw.ischool.talin16.activityspy D/Surface: Surface::allocateBuffers(this=0x7a27b53000)
+2022-05-07 00:07:44.266 24876-24986/edu.uw.ischool.talin16.activityspy W/Gralloc3: mapper 3.x is not supported
+2022-05-07 00:07:44.267 24876-24986/edu.uw.ischool.talin16.activityspy E/gralloc: Arm Module v1.0
+2022-05-07 00:07:44.268 24876-24986/edu.uw.ischool.talin16.activityspy E/ion: ioctl c0044901 failed with code -1: Invalid argument
+2022-05-07 00:07:44.268 24876-24986/edu.uw.ischool.talin16.activityspy W/gralloc: WARNING: internal format modifier bits not mutually exclusive. AFBC basic bit is always set, so extended AFBC support bits must always be checked.
+2022-05-07 00:07:51.997 24876-24985/edu.uw.ischool.talin16.activityspy I/n16.activitysp: ProcessProfilingInfo new_methods=1209 is saved saved_to_disk=1 resolve_classes_delay=8000
+2022-05-07 00:08:07.209 24876-24986/edu.uw.ischool.talin16.activityspy D/Surface: Surface::disconnect(this=0x7a27b53000,api=1)
+2022-05-07 00:08:07.228 24876-24986/edu.uw.ischool.talin16.activityspy I/GED: ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 27, oppidx_max 27, oppidx_min 0
+2022-05-07 00:08:07.236 24876-24876/edu.uw.ischool.talin16.activityspy V/PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@62bcb2, this = DecorView@334c403[MainActivity]
+2022-05-07 00:08:14.883 24876-24876/edu.uw.ischool.talin16.activityspy E/Current: going down,Captain!
+2022-05-07 00:08:14.890 24876-24876/edu.uw.ischool.talin16.activityspy D/View: [Warning] assignParent to null: this = DecorView@334c403[MainActivity]
